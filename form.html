@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyZHXPbOlfQKyRqdEvZN-dJxie_o0VT1ZhjyWfq0f7FFu6k3czQ4XPIk66pDJUIV57Rug&usqp=CAU" 
+    height="100" width="100">
+<head>
+    <title>Login</title>
+</head>
+<body>
+    <form action="" method="post">
+        <div>
+            <label for="username"> Email</label> <br>
+            <input type="email" name="email" id=" username"
+             required placeholder="abc@gmail.com"> 
+        </div>
+        <div>
+            <label for="pass"> Password</label> <br>
+            <input type="password" name="password"  id ="pass" required>
+        </div>
+        <div>
+            <label for="country">Country</label> <br>
+            <input type="country" name="country"  value="India" required id="country" 
+            disabled>
+        </div>
+
+        <p> <b>Choose Gender</b> </p>
+        <input type="radio" name = "gender" value="female"> Female <br>
+        <input type="radio" name = "gender" value="male"> Male <br>
+        <input type="radio" name = "gender" value="other"> Other <br>
+
+        <p> <b>Course Done</b> </p>
+        <input type="checkbox" name="course" value="C"> C <br>
+        <input type="checkbox" name="course" value="C++"> C++ <br>
+        <input type="checkbox" name="course" value="Java"> Java <br>
+        <input type="checkbox" name="course" value="html"> html <br>
+        <input type="checkbox" name="course" value="css"> css <br>
+
+        <p> <b> Month </b> </p>
+        <select multiple>
+            <option > Jan</option>
+            <option > Feb</option>
+            <option > Mar</option>
+            <option > Apr</option>
+            <option > May</option>
+        </select>
+
+        <p><b>Share Your Experience </b></p>
+        <textarea name="experience" cols="30" rows="10"></textarea>
+        <br>
+       <input type="submit">
+    </form>
+</body>
+</html>
